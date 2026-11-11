@@ -1,0 +1,128 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.example
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+venv/
+ENV/
+env/
+.venv/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+package-lock.json
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Build & Dist
+dist/
+build/
+*.map
+.next/
+out/
+
+# Database & Cache
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+.cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+temp/
+.temp/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Data files (keep .gitkeep for structure)
+data/
+!data/.gitkeep
+backend/data/repositories/
+backend/data/chroma_db/
+backend/data/conversations.db
+
+# Lock files (optional - uncomment if you want to commit them)
+# package-lock.json
+# requirements.lock
+
+# Testing folder (keep structure, ignore test artifacts)
+testing/test_reports/
+testing/test_archives/
+!testing/.gitkeep
+!testing/fixtures/.gitkeep
+!testing/sample_repositories/.gitkeep
+!testing/test_data/.gitkeep
+!testing/test_scripts/.gitkeep
+
+# Keep documentation
+!*.md
+!README.md
+!.gitkeep
